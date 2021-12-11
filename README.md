@@ -38,7 +38,7 @@ The LED button is connected to a digital output pin to drive the LED and a digit
 
 The speaker is controlled via a transistor. The speaker is driven with the full battery voltage through a transistor, making it much louder than connecting through a PWM pin. 
 
-Components were assembled and the code validated on a breadboard before soldering everything together and fitting it inside the helmet. 
+Components were assembled and the code validated on a breadboard before soldering everything together and fitting it inside the helmet. I had to hollow out portions of the back of the helmet with a razor blade to make room to slot in some of the larger boards and make room for the button, speaker, and power switch. Hot glue was used liberally to hold everything together. 
 
 ### Software
 The software consists of a single Arduino sketch with three major library dependencies. The raw code for these libraries are not included in this repo - you will have to add them manually through the arduino IDE library manager. Links to the libraries are below: 
