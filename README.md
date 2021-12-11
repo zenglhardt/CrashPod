@@ -11,3 +11,18 @@ Cycling is both an excellent form of exercise and an environmentally-friendly mo
 ![CrashPod Demo](https://user-images.githubusercontent.com/39633184/145655501-79357b8e-c386-4670-94ed-5e7fc7536c58.jpg)
 
 ## Components: 
+| Component                                   | Description | Link | 
+| -----------  | ---------------- |                    | ----------- |
+| Metro M0 Express                            | Microcontroller| https://www.adafruit.com/product/3505      |
+| SARA-R4 LTE Breakout                        | Cell connectivity | https://www.sparkfun.com/products/14997 |
+| SAM-M8Q GPS Breakout                        | GPS module | https://www.sparkfun.com/products/15210 |
+| MPU6050 | Gyro + Accel                      | https://www.sparkfun.com/products/11028 |
+| Rocker switch | Power on/off                | https://www.sparkfun.com/products/8837 |
+| Speaker | Alert when crash detected         | https://www.sparkfun.com/products/15350 |
+| LED Button | Cancel text alert after crash  | https://www.sparkfun.com/products/15350 |
+| Lithium-Ion Battery | rechargable battery   | https://www.sparkfun.com/products/13854 |
+| Quiic cable | saves some soldering for i2c  | https://www.sparkfun.com/products/17259 |
+| Solar Panels (x2) | energy harvesting       | https://www.sparkfun.com/products/16356 |
+| Solar battery charger                       | charges LiPo battery from solar panels | https://www.dfrobot.com/product-1781.html |
+
+
