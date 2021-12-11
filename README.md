@@ -45,7 +45,9 @@ Components were assembled and the code validated on a breadboard before solderin
 The software consists of a single Arduino sketch with three major library dependencies. The raw code for these libraries are not included in this repo - you will have to add them manually through the arduino IDE library manager. Links to the libraries are below: 
 
 SARA-R4 Library: https://github.com/sparkfun/SparkFun_LTE_Shield_Arduino_Library
+
 GPS Library: https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library
+
 MPU_6050 Library: https://github.com/jarzebski/Arduino-MPU6050
 
 The code progresses through two stages. On power-on, the Setup function attempts to connect the LTE modem to a network. I used the Hologram IoT sim provided with the device. Once a connection is established (this can take up to 3 minutes) the speaker plays two tones. Then the device enters the main loop. The GPS module is polled every 5 seconds to update the rider location. There are two interrupts of note - first is the fall detection interrupt, connected to the interrupt pin of the MPU6050. When this is triggered, a flag variable is set causing the system to enter the "alert" stage. 
